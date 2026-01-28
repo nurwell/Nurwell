@@ -1,83 +1,80 @@
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajh4aGd4aGd4aGd4aGd4aGd4aGd4aGd4aGd4aGd4/xT9IgzoKnwFNmISR8I/giphy.gif" width="100%" />
-</div>
-
-<h1 align="center">Hi there, I'm <a href="https://github.com/Nurwell" target="_blank">Nurseyt Uzakov</a>! 👋</h1>
+# Hi there, I'm [Nurseyt Uzakov](https://github.com/Nurwell)! 👋
 
 <p align="center"> 
-  <b>🚀 Full Stack Developer | 🛠️ Software Engineer | 🔍 Actively Looking for Opportunities</b>
+  <b>IT Support & Automation | Cybersecurity | GenAI Enthusiast | Software Developer</b>
 </p>
 
 <p align="center">
-  I am a passionate developer eager to contribute my skills to a dynamic team. I specialize in building efficient, scalable, and visually stunning web applications. Currently open to new challenges and ready to make an impact!
+  Junior IT Support Specialist with experience in automation, Python scripting, and system administration in Windows/Linux environments. I enjoy using scripting and AI tools to make IT operations more efficient and secure.
 </p>
 
 <p align="center">
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-Hire_Me-blue?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:nurseyt.tech@gmail.com">
+    <img src="https://img.shields.io/badge/Email-nurseyt.tech%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://www.linkedin.com/in/nurseytuzakov/">
+    <img src="https://img.shields.io/badge/LinkedIn-Nurseyt_Uzakov-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://your-portfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-ff69b4?style=for-the-badge&logo=vercel&logoColor=white" />
+  <a href="https://github.com/nurwell/netdiag-suite">
+    <img src="https://img.shields.io/badge/Project-netdiag--suite-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
-<div align="center">
-  <br />
-  <!-- "Open to Work" Badge -->
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/Status-Open_To_Work-success?style=for-the-badge" alt="Open To Work"/>
-  </a>
-  <br />
-</div>
+---
 
-<hr />
-
-### 🛠️ Tech Stack & Skills
+## 🛠️ Skills & Tools
 
 <div align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <br />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+
+  <!-- OS & Shell -->
+  <img src="https://img.shields.io/badge/Linux-Systems-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Windows-Administration-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-Scripting-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+
+  <br/>
+
+  <!-- Programming & Automation -->
+  <img src="https://img.shields.io/badge/Python-Automation-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerShell-Scripting-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
+
+  <br/>
+
+  <!-- Tools -->
+  <img src="https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/VirtualBox-VMs-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" />
+
+  <br/>
+
+  <!-- Domains -->
+  <img src="https://img.shields.io/badge/Networking-TCP%2FIP%20%7C%20DNS%20%7C%20DHCP-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Cybersecurity-Practices-FF0000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/GenAI-Tools-8A2BE2?style=for-the-badge" />
+
 </div>
 
-<hr />
+---
 
-### 📈 GitHub Stats
+## 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nurwell&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9" alt="Nurwell's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nurwell&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Nurwell&show_icons=true&theme=dracula&hide_border=true" alt="Nurwell's Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nurwell&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" />
 </div>
-
-<br />
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nurwell&theme=radical&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nurwell&theme=dracula&hide_border=true" alt="GitHub Streak" />
 </div>
 
-<hr />
+---
 
-### 🏆 Recent Projects
+## 🔧 Highlighted Projects
 
-<!-- You can update these with your actual best projects -->
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **Project Name** | Short description of what this project does and the value it adds. | `React`, `TypeScript`, `Node.js` |
-| **Project Name** | Short description of what this project does and the value it adds. | `Python`, `FastAPI` |
-| **Project Name** | Short description of what this project does and the value it adds. | `Next.js`, `Tailwind` |
-
-<br />
+| Project | Description | Tech |
+|--------|-------------|------|
+| **[netdiag-suite](https://github.com/nurwell/netdiag-suite)** | Network diagnostics toolkit to help with troubleshooting (ping, DNS, connectivity checks). | Linux, Networking, Bash/Python |
+| *(more coming soon)* | Focused on Windows/Linux admin, security automation, and monitoring. | Python, Bash, PowerShell |
 
 <p align="center">
-  <i>"I'm ready to bring my problem-solving skills and passion for coding to your team!"</i>
+  <i>Always learning, building, and looking for opportunities to improve IT operations through automation and security.</i>
 </p>
