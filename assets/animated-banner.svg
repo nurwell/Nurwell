@@ -1,0 +1,175 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated developer operations banner for Nurseyt Uzakov</title>
+  <desc id="desc">A dark technical banner with animated network lines, glowing nodes, and a terminal status panel.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.45" stop-color="#102B3F"/>
+      <stop offset="1" stop-color="#163A2E"/>
+    </linearGradient>
+
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#8BFFC7" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" stroke="#D5FFF0" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .label {
+        fill: #EAFBF6;
+        font-family: Consolas, Monaco, monospace;
+        font-size: 21px;
+        letter-spacing: 0.08em;
+      }
+
+      .headline {
+        fill: #FFFFFF;
+        font-family: Segoe UI, Arial, sans-serif;
+        font-size: 54px;
+        font-weight: 700;
+      }
+
+      .subline {
+        fill: #B8D7CF;
+        font-family: Segoe UI, Arial, sans-serif;
+        font-size: 24px;
+      }
+
+      .terminal {
+        fill: #9EF6C9;
+        font-family: Consolas, Monaco, monospace;
+        font-size: 18px;
+      }
+
+      .signal {
+        stroke: url(#pulse);
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-dasharray: 90 260;
+        animation: travel 5s linear infinite;
+      }
+
+      .signal.two {
+        animation-delay: -1.7s;
+      }
+
+      .signal.three {
+        animation-delay: -3.1s;
+      }
+
+      .node {
+        filter: url(#glow);
+        animation: breathe 2.8s ease-in-out infinite;
+      }
+
+      .node.delay {
+        animation-delay: -1.4s;
+      }
+
+      .cursor {
+        animation: blink 1s steps(2, start) infinite;
+      }
+
+      .float {
+        animation: float 6s ease-in-out infinite;
+      }
+
+      @keyframes travel {
+        to {
+          stroke-dashoffset: -350;
+        }
+      }
+
+      @keyframes breathe {
+        0%, 100% {
+          opacity: 0.55;
+          transform: scale(1);
+        }
+
+        50% {
+          opacity: 1;
+          transform: scale(1.15);
+        }
+      }
+
+      @keyframes blink {
+        50% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes float {
+        0%, 100% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(-8px);
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .signal,
+        .node,
+        .cursor,
+        .float {
+          animation: none;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="34" fill="url(#grid)"/>
+
+  <g opacity="0.8">
+    <path d="M92 260 C220 120 330 310 460 170 S710 95 842 185 1015 254 1110 116" stroke="#D5FFF0" stroke-opacity="0.16" stroke-width="2"/>
+    <path class="signal" d="M92 260 C220 120 330 310 460 170 S710 95 842 185 1015 254 1110 116"/>
+
+    <path d="M128 102 C254 184 360 70 510 120 S690 292 842 218 1000 74 1134 174" stroke="#D5FFF0" stroke-opacity="0.12" stroke-width="2"/>
+    <path class="signal two" d="M128 102 C254 184 360 70 510 120 S690 292 842 218 1000 74 1134 174"/>
+
+    <path d="M70 188 C230 234 334 156 470 238 S716 336 906 244 1050 208 1160 270" stroke="#D5FFF0" stroke-opacity="0.1" stroke-width="2"/>
+    <path class="signal three" d="M70 188 C230 234 334 156 470 238 S716 336 906 244 1050 208 1160 270"/>
+  </g>
+
+  <g class="float">
+    <circle class="node" cx="190" cy="222" r="7" fill="#8BFFC7"/>
+    <circle class="node delay" cx="474" cy="170" r="8" fill="#38BDF8"/>
+    <circle class="node" cx="842" cy="185" r="7" fill="#8BFFC7"/>
+    <circle class="node delay" cx="1036" cy="235" r="8" fill="#38BDF8"/>
+  </g>
+
+  <g transform="translate(70 70)">
+    <rect x="0" y="0" width="520" height="194" rx="24" fill="#06131E" fill-opacity="0.72" stroke="#B8D7CF" stroke-opacity="0.22"/>
+    <circle cx="34" cy="33" r="7" fill="#FF6B6B"/>
+    <circle cx="58" cy="33" r="7" fill="#FFD166"/>
+    <circle cx="82" cy="33" r="7" fill="#8BFFC7"/>
+
+    <text x="30" y="82" class="terminal">$ diagnose --network --services</text>
+    <text x="30" y="119" class="terminal">status: building reliable automation</text>
+    <text x="30" y="156" class="terminal">focus: support + security + AI</text>
+    <rect class="cursor" x="396" y="142" width="11" height="22" fill="#9EF6C9"/>
+  </g>
+
+  <g transform="translate(640 106)">
+    <text class="label" x="0" y="0">IT OPERATIONS / AUTOMATION</text>
+    <text class="headline" x="0" y="70">Nurseyt Uzakov</text>
+    <text class="subline" x="0" y="114">Python • Networking • Cybersecurity • Cloud</text>
+  </g>
+
+  <rect x="22" y="22" width="1156" height="316" rx="26" stroke="#FFFFFF" stroke-opacity="0.12"/>
+</svg>

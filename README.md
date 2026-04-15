@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/animated-banner.svg" alt="Animated developer operations banner for Nurseyt Uzakov" width="100%" />
+</p>
+
 # Nurseyt Uzakov
 
 **IT Support & Automation Specialist | Python Developer | Cybersecurity Learner**
