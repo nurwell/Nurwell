@@ -36,7 +36,7 @@ I build practical tools that make IT work easier to operate, diagnose, and secur
 | Project | What It Shows | Tech |
 | --- | --- | --- |
 | [NetDiag Suite](https://github.com/nurwell/netdiag-suite) | Network and system diagnostic tooling for IT operations, including service monitoring and test coverage. | Python, AsyncIO, HTTP/TCP/DNS checks |
-| [Kanban Mastery](https://github.com/nurwell/kanban-mastery-v3-build-deploy-with-net-8-1769102940) | Full-stack Kanban application with authentication, API tests, database migrations, and deployment workflows. | ASP.NET Core, React, SQLite, GitHub Actions |
+| [Kanban Mastery](https://github.com/nurwell/kanban-mastery) | Full-stack Kanban application with authentication, API tests, database migrations, and deployment workflows. | ASP.NET Core, React, SQLite, GitHub Actions |
 | [ReigniteAI](https://github.com/nurwell/reigniteai) | Productivity restart app focused on helping people recover momentum with guided suggestions. | JavaScript, React |
 
 ---
